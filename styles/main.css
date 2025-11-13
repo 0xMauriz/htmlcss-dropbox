@@ -14,34 +14,34 @@
     flex-wrap: nowrap;
 }
 
-.leftlinksandlogo {
+.leftlinks-and-logo {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.rightlinksandfakebutton {
+.rightlinks-and-fakebutton {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.dropboxlogo {
+.dropbox-logo {
     margin: 0 0 0 10px;
     padding: 7px;
 }
 
-.leftlinkstxt {
+.leftlinks-txt {
     padding: 10px 5px 10px 5px;
     margin: 0 0 0 13px;
 }
 
-.rightlinkstxt {
+.rightlinks-txt {
     padding: 10px 5px 10px 5px;
     margin: 0 23px 0 0;
 }
 
-.startfakebutton {
+.start-fakebutton {
     display: flex;
     color: white;
     border: 1px solid white;
@@ -50,39 +50,37 @@
     margin: 0 23px 0 0;
 }
 
-.presentationslide {
-    display: flex;
-    height: 700px;
-    width: 100%;
+.hero-section {
     padding-top: 60px;
     background-color: rgb(180, 208, 230);
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-
 }
 
-.slide-titlebox {
-    display: flex;
-    font-size: 33px;
-    width: 70%;
+.container {
+    width: 980px;
+    margin: 0 auto;
 }
 
-.slide-descriptionbox {
+.container-titlebox {
     display: flex;
-    width: 70%;
+    font-size: 34px;
+    width: 100%;
+}
+
+.container-descriptionbox {
+    display: flex;
+    width: 100%;
     position: relative;
 }
 
 .slide-txtbox {
     display: flex;
-    width: 35%;
+    width: 32%;
+    margin-top: 30px;
     flex-direction: column;
     align-items: flex-start;
 }
 
-
-.faketrialbutton {
+.fake-trialbutton {
     display: flex;
     margin-top: 30px;
     color: white;
@@ -99,22 +97,21 @@
 .downarrow {
     display: flex;
     font-size: 50px;
-    margin-top: 30%;
-    margin-bottom: -25px;
+    margin-top: 31%;
 }
 
-
-.slide-imgbox {
+.container-imgbox {
     display: flex;
-    width: 65%;
+    width: 80%;
+    margin-top: 30px;
     position: relative;
 }
 
 .imgprop {
     display: flex;
     position: absolute;
-    width: 125%;
-    height: 490px;
+    width: 105%;
+    height: 118%;
 }
 
 .descriptionslide {
