@@ -119,7 +119,7 @@
 
 .description-box {
     display: flex;
-    height: 2100px;
+    height: 3800px;
     min-width: 1000px;
     margin-top: 130px;
     border-top: 1px solid rgb(218, 218, 218);
@@ -291,7 +291,7 @@
 .findapartner {
     display: flex;
     border-bottom: 1px solid black; /* DEBUG */
-    margin-top: 100px;
+    margin: 80px 0 10px 0;
     flex-wrap: wrap;
 }
 
@@ -318,10 +318,61 @@
     text-align: center;
 }
 
-.dropboxfunctionalities {
+.dropbox-functionalities {
     display: flex;
     border-bottom: 1px solid black; /* DEBUG */
-    margin-top: 100px;
-    width: 60%;
+    margin: 100px 0 0 0;
+    width: 105%;
+    height: 1800px;
 
+}
+
+.dropbox-functionalities h2 {
+    font-size: 30px;
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: -200px;
+}
+
+.functionalities-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 90%;
+}
+
+.functionalities-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.functionalities-container h4 {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.functionalities-container p {
+    font-size: 13px;
+    padding: 30px 0 10px 0;
+}
+
+.functionalities-container h3 {
+    font-size: 30px;
+    width: 80%;
+    padding-top: 100px;
+    margin-bottom: -200px;
+}
+
+.card {
+    width: 30%;
+    height: 200px;
+}
+
+.footer {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: black;
+    color: white;
 }
