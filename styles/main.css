@@ -181,6 +181,7 @@
 .package-quantity {
     width: 30%;
     padding: 5px 9% 5px 11%;
+    border: 1px solid black;
     font-size: 15px;
 }
 
@@ -207,6 +208,7 @@
     width: 30%;
     height: 1000px;
     padding: 30px 20px 20px 20px;
+    border: 1px solid black;
     flex-wrap: wrap;
     border-top: 0px;
 }
@@ -225,6 +227,7 @@
     width: 30%;
     height: 1000px;
     padding: 30px 20px 142px 20px;
+    border: 1px solid black;
     flex-wrap: wrap;
     border-top: 0px;
 }
@@ -240,6 +243,7 @@
     justify-content: center;
     font-size: 15px;
     width: 100%;
+    border: 1px solid black;
     margin-top: 30px;
     padding: 15px 0;
 
@@ -251,6 +255,7 @@
 
 .enterprise-package-contact{
     width: 100%;
+    border: 1px solid black;
     padding: 30px 3px 30px 15px;
 }
 
